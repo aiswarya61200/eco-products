@@ -24,5 +24,5 @@ An electric vehicle product comparison page built with React.js and React Router
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/eco-products-page.git
+   git clone https://github.com/aiswarya61200/eco-products.git
    cd eco-products
