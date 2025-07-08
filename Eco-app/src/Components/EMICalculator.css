@@ -1,0 +1,179 @@
+.emi-wrapper {
+  max-width: 1000px;
+  margin: auto;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.emi-heading {
+  font-size: 26px;
+  font-weight: bold;
+  color: #24124d;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.emi-container {
+  background: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+}
+
+.emi-calc-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+  background: #f8f8f8;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.inputs-section {
+  flex: 1;
+  min-width: 300px;
+}
+
+.slider-group {
+  margin-bottom: 25px;
+}
+
+.slider-group label {
+  font-weight: bold;
+  color: #333;
+}
+
+.slider-group input[type="range"] {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.slider-value {
+  background: #24124d;
+  color: #fff;
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 6px;
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.tenure-buttons {
+  margin-top: 20px;
+}
+
+.tenure-options button {
+  background: #ccc;
+  color: #000;
+  border: none;
+  padding: 10px 18px;
+  margin: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.tenure-options button.active {
+  background: #24124d;
+  color: #fff;
+}
+
+.output-section {
+  flex: 0.8;
+  min-width: 250px;
+  background: #e9f3fd;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.emi-amount span {
+  color: green;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.emi-note {
+  font-size: 13px;
+  color: #444;
+  margin-top: 10px;
+}
+
+.summary {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.ticket-box {
+  width: 100%;
+  max-width: 360px;
+  background-color: #e0f2fe;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.ticket-inner {
+  background-color: #e0f2fe;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.emi-label {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #2a1c4d;
+  margin-bottom: 0.25rem;
+}
+
+.emi-value {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #16a34a; /* green-600 */
+  margin-bottom: 1rem;
+}
+
+.emi-note {
+  text-align: center;
+  font-size: 11px;
+  color: #2a1c4d;
+  margin-bottom: 1.5rem;
+}
+
+.divider img {
+  width: 100%;
+  margin-bottom: 1.25rem;
+}
+
+.summary-section {
+  margin-bottom: 1.5rem;
+}
+
+.summary-title {
+  font-size: 14px;
+  color: #2a1c4d;
+  margin-bottom: 0.75rem;
+}
+
+.summary-row {
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+}
+
+.summary-icon {
+  width: 15%;
+}
+
+.summary-icon img {
+  width: 100%;
+}
+
+.summary-amount {
+  margin-left: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2a1c4d;
+}

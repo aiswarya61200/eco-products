@@ -1,0 +1,302 @@
+/* General Reset and Background */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Container Styles */
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.calculator {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  max-width: 1100px;
+  width: 100%;
+  border-radius: 8px;
+  padding: 30px;
+  gap: 40px;
+}
+
+/* Panels */
+.left-panel {
+  flex: 0.8;
+  min-width: 450px;
+}
+
+.right-panel {
+  flex: 1.2;
+  background-color: #111;
+  padding: 30px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Titles */
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 25px;
+}
+
+/* Mode Tabs */
+.mode-tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.mode-tab {
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: #222;
+  color: white;
+  border: 1px solid #555;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.mode-tab.active {
+  background-color: #00b33c;
+  color: white;
+  border-color: #00b33c;
+}
+
+/* 🔥 Form Layout (New Additions) */
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.form-group {
+  flex: 1;
+  margin: 0px;
+}
+
+/* ✅ Label Updates */
+.label {
+  display: block;
+  font-weight: bold;
+  color: #00b33c;
+  margin-bottom: 6px;
+}
+
+/* Inputs and Selects */
+.input-field,
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: none;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.input-field::placeholder {
+  color: #999;
+}
+
+/* Slider */
+.slider-container {
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.slider {
+  width: 100%;
+  appearance: none;
+  height: 6px;
+  border-radius: 4px;
+  background: #ccc;
+  outline: none;
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #00b33c;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.slider-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #000;
+  margin-top: 5px;
+}
+
+/* Submit Button */
+.submit-btn {
+  background-color: #fff;
+  color: #000;
+  padding: 12px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #ddd;
+}
+
+/* Right Panel Content */
+.right-panel h2 {
+  font-size: 22px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.great-choice {
+  color: #00b33c;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.savings-box {
+  background-color: #004d26;
+  padding: 15px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.savings-amount {
+  font-size: 18px;
+  color: #00ff66;
+}
+
+.cost-comparison {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.cost-box {
+  text-align: center;
+  flex: 1;
+}
+
+.cost-amount {
+  font-size: 20px;
+  font-weight: bold;
+  color: #00b33c;
+}
+
+.cost-amount.petrol {
+  color: #fff;
+}
+
+.cost-label {
+  font-size: 12px;
+  color: #ccc;
+}
+
+.vs {
+  font-weight: bold;
+  color: #999;
+  padding: 0 10px;
+}
+
+.carbon-savings {
+  background-color: #ccf5e1;
+  color: #000;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 6px;
+}
+
+.employment-section {
+  margin-top: 20px;
+}
+
+.employment-title {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.emi-box {
+  background-color: #ccc;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.emi-amount {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00b33c;
+}
+
+.disclaimer {
+  font-size: 12px;
+  color: #ccc;
+  margin-top: 15px;
+}
+
+.ev-header-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.ev-header-image {
+  width: 30px;
+  height: 30px;
+  background-image: url("rizta.avif");
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Title styled separately and neatly */
+.ev-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
