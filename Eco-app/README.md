@@ -1,4 +1,4 @@
-# ECo Product 
+# Eco Product 
 
 An electric vehicle product comparison page built with React.js and React Router.
 
