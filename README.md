@@ -61,7 +61,7 @@ git clone https://github.com/aiswarya61200/eco-products.git
 cd eco-products
 ⚙️ Step 2: Backend Setup
 
-cd backend
+cd Backend
 🔹 Initialize and install dependencies
     npm install
 
