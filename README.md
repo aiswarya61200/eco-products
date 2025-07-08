@@ -20,7 +20,8 @@ Bootstrap 5	CORS Middleware	Cloud-based
 Swiper.js	REST API	Collections: ev_products, rts_products
 📂 Project Structure
 bash
-ev-product-comparison/
+```
+ev-product/
 ├── **frontend/** (React App)
 │   ├── public/           # Static files
 │   ├── src/
@@ -37,6 +38,8 @@ ev-product-comparison/
 │   └── package.json      # Backend Dependencies
 │
 └── README.md             # Project Documentation
+
+```
 🔌 Database Connection (MongoDB Atlas)
 Your MongoDB Atlas URI (from your code):
 
