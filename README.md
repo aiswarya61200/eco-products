@@ -109,4 +109,3 @@ Frontend runs at: http://localhost:3000
 
 
 
-Deployment to Vercel (frontend) & Render (backend)
